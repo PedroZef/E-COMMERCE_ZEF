@@ -43,7 +43,7 @@ Para o segundo caso, pagamento, foi criada uma entidade "Formas_pagamento", cont
 
 Sobre a Entrega, decidi criar uma entidade especializada, a qual é herdada por Pedido, uma vez que o peido é feito. Essa entidade contém informações como: confirmação do pedido, data de envio, previsão de entrega, código de rastreamento e transportadora responsável.
 
-Dentro de pedido, foi acrescentado o atributo "Cancelamento/devolução/troca". Por meio deste atributo, o cliente poderá consultar politicas de cancelamento, devolução e troca e entrar em contato com o vendedor para fazer sua solicitação. Isso será fetio por meio de código, sem necessidade de criar uma outra endidade.
+Dentro de pedido, foi acrescentado o atributo "Cancelamento/devolução/troca". Por meio deste atributo, o cliente poderá consultar politicas de cancelamento, devolução e troca e entrar em contato com o vendedor para fazer sua solicitação. Isso será feito por meio de código, sem necessidade de criar uma outra entidade.
 
 ### Instrutora
 
